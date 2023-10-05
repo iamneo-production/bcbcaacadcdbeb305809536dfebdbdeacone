@@ -47,6 +47,19 @@ namespace dotnetmicroserviceone.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Airport>> Get
+        public async Task<ActionResult<Airport>> GetAirportById(int id)
+        {
+
+        }
+        [HttpPost]
+        public async Task<ActionResult<Airport>> AddAirport(Airport airport)
+        {
+
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAirport(int id)
+        {
+
+        }
     }
 }
