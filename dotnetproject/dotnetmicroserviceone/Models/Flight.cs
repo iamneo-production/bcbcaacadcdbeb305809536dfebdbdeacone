@@ -11,7 +11,11 @@ namespace dotnetmicroserviceone.Models
         public string FlightName { get; set;}
         public decimal TicketPrice {get; set;}
         public int TotalSeats { get; set;}
-        public string Airline { grt; set;}
+        public string Airline { get; set;}
+        public string Pilot { get; set;}
+        public string Status { get; set;}
+        public string Gate { get; set;}
+        public string Terminal { get; set;}
         
     }
 }
