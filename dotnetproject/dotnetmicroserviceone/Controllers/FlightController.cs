@@ -36,5 +36,17 @@ namespace dotnetmicroserviceone.Controllers
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<FlightController>>> GetAllFlights()
+        {
+
+        }
+
+        [HttpGet("names")]
+        public async Task<ActionResult<IEnumerable<string>>> GetAirportNames()
+        {
+
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Airport>> Get
     }
 }
